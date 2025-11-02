@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farid Sawaqed - Personal Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="header">
+        <div class="px-4 pt-5 my-0 text-center header_anim">
+            <div class="px-5"> <img src="./assets/images/logo.png"
+                    class="img-fluid border-bottom rounded-4 pink-border mb-4" alt="Name logo" width="300" height="200"
+                    loading="lazy"> </div>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 fw-bold text_color">
+                    Tenacious developer with a passion for programming, numbers and creativity.
+                </p>
+                <div class="overflow-hidden" style="max-height: 30vh;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero hero-2">
+        <div class="px-4 py-5 my-0 text-center"> <img class="d-block mx-auto mb-4 profile"
+                src="./assets/images/User.jpg" alt="Farid Sawaqed profile picture" width="150" height="150">
+            <h1 class="display-5 fw-bold bold_color">Glad to meet you!</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4 text_color">
+                    My name is Farid Sawaqed, but you can call me Fred. <br />
+                    <hr />
+                <p class="lead mb-4 text_color">
+                    I love the art of creation, whether its:
+                <ul class="no-bullets lead mb-4 text_color">
+                    <li>Web Development</li>
+                    <li>Game Development and Game Design</li>
+                    <li>Illustration</li>
+                    <li>Completing 3D and 2D game assets</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Skills and Experience -->
+    <div class="container pb-5">
+        <div class="section-titles">
+            <h2 class="display-5 fw-bold bold_color text-center py-4 section-links active_part"
+                onclick="opensection('carouselExampleCaptions')">Skills</h2>
+            <h2 class="display-5 fw-bold bold_color text-center py-4 section-links" onclick="opensection('experience')">
+                Experience</h2>
+            <h2 class="display-5 fw-bold bold_color text-center py-4 section-links" onclick="opensection('projects')">
+                Projects</h2>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide info-contents active-content">
+            <div class="carousel-indicators carousel-text-1">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active img-fluid">
+                    <img src="./assets/images/game_development_work.png" class="d-block w-100"
+                        alt="Presentation slides of game project">
+                    <div class="carousel-caption d-md-block carousel-text-2">
+                        <h3>Game Development</h3>
+                        <p>Developing 2D pixelated games with Unity and Godot,
+                            and crafting immersive experiences using Unreal Engine</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/python_work.png" class="d-block w-100"
+                        alt="Image of game content, knife cutting grilled cheese sandwich">
+                    <div class="carousel-caption d-md-block carousel-text-2">
+                        <h3>Python programming</h3>
+                        <p>Created a range of functional projects using Python,
+                            from simple games to real world applications like
+                            an Emotion Recognition Software</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/web_development_work.png" class="d-block w-100"
+                        alt="Starting main menu of the game">
+                    <div class="carousel-caption d-md-block carousel-text-2">
+                        <h3>Web Development</h3>
+                        <p>Bringing ideas to life on the web through HTML and CSS</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <ul id="experience" class="list-group info-contents">
+            <li class="list-group-item list-group-item-danger">Education</li>
+            <ul>
+                <li class="list-group-item list-group-item-primary">Montclair State University | Computer Science </li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">
+                        M.A. <br>
+                        Graduated: May 2025 <br>
+                        3.6 </li>
+                </ul>
+                <li class="list-group-item list-group-item-primary">Montclair State University | Game Development </li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">
+                        CERT <br>
+                        Graduated: May 2024 <br>
+                        4.0 </li>
+                </ul>
+                <li class="list-group-item list-group-item-primary">Montclair State University | Mathematics </li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">
+                        B.A. <br>
+                        Graduated: May 2021 <br>
+                        3.4 <br>
+                        Dean’s List (Spring 2018, Fall 2019, Fall 2020) </li>
+                </ul>
+            </ul>
+
+            <hr />
+
+            <li class="list-group-item list-group-item-danger">Experience</li>
+            <ul>
+                <li class="list-group-item list-group-item-primary">Newark School of Data Science & Information
+                    Technology</li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">Per Diem Teacher <br> 10/6/2025 - Current</li>
+
+                    <ul>
+                        <li class="list-group-item list-group-item-light">
+                            Provide classroom insturctionsfor grades 9 to 12 in various subjects as needed.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Maintain a positive and organized learning environment by following lesson plans
+                            and adapting to diverse classroom settings.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Manage student behavior effectively while ensuring safety and engagement.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Communicate with staff and administration to support student learning.
+                        </li>
+                    </ul>
+                </ul>
+
+                <li class="list-group-item list-group-item-primary">Montclair State University</li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">Graduate Research Assistant <br>
+                        September 3, 2024 – May 5, 2025</li>
+
+                    <ul>
+                        <li class="list-group-item list-group-item-light">
+                            Sponsored by The National Science Foundation
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Research on emotion-based human-robot interaction to implement the creation
+                            of an Artificially Intelligent Assistant.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Attend weekly lab meetings to report and discuss projects’ progresses.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Produce and present research outcomes through academic papers,
+                            oral presentations, and posters at Montclair State University,
+                            as well as at national/international conferences.
+                        </li>
+                    </ul>
+                </ul>
+
+                <li class="list-group-item list-group-item-primary">Montclair State University</li>
+                <ul>
+                    <li class="list-group-item list-group-item-success">Game Development Certificate Teaching Assistant
+                        <br>
+                        September 5, 2023 – May 7, 2024
+                    </li>
+
+                    <ul>
+                        <li class="list-group-item list-group-item-light">
+                            Tutor up to 25 students a semester in Blender material including Mesh Creation,
+                            Rigging and Animation, and importing to a desired game engine.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Evaluate students’ progress during class and help them with their specific needs.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Grade assignments while providing constructive feedback to students to aid in their learning
+                            experience.
+                        </li>
+                        <li class="list-group-item list-group-item-light">
+                            Maintain office hours where students can come and get help related to game development.
+                        </li>
+                    </ul>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="container">
+        <div id="projects" class="container col-xxl-8 px-4 py-3 info-contents">
+            <div class="project-header">
+                <h2>Click on gif to enter external link:</h2>
+            </div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
+                <div class="col-lg-6">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">DnD Initiative Tracker</h3>
+                    <p class="lead">A website tool used to organize and display the turn order of players and creatures
+                        during combat of a Dungeons and Dragons session, ensuring gameplay flows smoothly and fairly.
+                    </p>
+                </div>
+                <a class="gif" href="https://youtu.be/lnmbY3dlwm0?si=oVelQNSxaacB1nBV">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img src="./assets/images/dnd.gif"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                            loading="lazy">
+                    </div>
+                </a>
+            </div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kitcken Trials VR / UE-5</h3>
+                    <p class="lead">Virtual reality cooking simulation to develop young children of age the art, sklls,
+                        and knowledge needed to prepare food safely, without entering a real hazardous kitchen.</p>
+                </div>
+                <a class="gif" href="https://youtu.be/zm6oqzt3iTA?si=zlq0D0c9vEBHhslA">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img src="./assets/images/Kitchen_Trials_VR.gif"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                            loading="lazy">
+                    </div>
+                </a>
+            </div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Water Balloon Wars / Unity</h3>
+                    <p class="lead">A sidescroller about a group of fire lovers threatening the water park with strange
+                        green magic. Your have to defeat the Junior Fire Squad, destroy the satellites,
+                        and save the water park.</p>
+                </div>
+                <a class="gif" href="https://faridsawaqed06.itch.io/water-balloon-wars">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img src="./assets/images/unity_project.gif"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                            loading="lazy">
+                    </div>
+                </a>
+            </div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Ari's Survival Arc / Godot</h3>
+                    <p class="lead">Submission for the 2024 Pixel Game Jam, an endless survival game of avoiding
+                        obstacles,
+                        gathering food, and collecting powerups for a top score. First godot project created in only 9
+                        days.</p>
+                </div>
+                <a class="gif" href="https://faridsawaqed06.itch.io/aris-survival-arc">
+                    <div class="col-10 col-sm-8 col-lg-6"> <img src="./assets/images/godot_project.gif"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                            loading="lazy">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr />
+    </div>
+
+    <!-- Contact Me -->
+    <div class="container">
+        <div class="contact-page">
+            <h3 class="contact-text-1">Let's chat!</h3>
+            <h3 class="contact-text-2">Need a programmer for either game/web development?</h3>
+            <p class="contact-text-3">Looking forward to create something with you</p>
+        </div>
+        <div class="contact-page-buttons pt-4">
+            <a href="assets/images/my_resume.pdf" download class="download-btn">MY RESUME</a>
+            <a class="contact-btn" href="mailto:faridsawaqed@yahoo.com">CONTACT ME</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="nav justify-content-center mb-3 footer-items">
+            <li class="nav-item"><a href="#" class="nav-link px-2 footer-text">Home</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/FaridSawaqed-06s/"
+                    class="nav-link px-2 footer-text">Linkedin</a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/@FaridSawaqed?sub_confirmation=1"
+                    class="nav-link px-2 footer-text">YouTube</a></li>
+            <li class="nav-item"><a href="https://www.tiktok.com/@sketchingsilver?_t=8pLGLI0oJpO&_r=1"
+                    class="nav-link px-2 footer-text">TikTok</a></li>
+            <li class="nav-item"><a href="https://ruili728.github.io/" class="nav-link px-2 footer-text">MIAC Lab
+                    Team</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2025 Farid Sawaqed - Made with passion</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+    <script>
+        var info_links = document.getElementsByClassName('section-links');
+        var info_contents = document.getElementsByClassName('info-contents');
+
+        function opensection(section_name) {
+            // Remove 'active' classes
+            for (let info_link of info_links) {
+                info_link.classList.remove("active-part");
+            }
+
+            for (let info_content of info_contents) {
+                info_content.classList.remove("active-content");
+            }
+
+            // Add 'active' to clicked title and matching section
+            event.currentTarget.classList.add("active-part");
+            document.getElementById(section_name).classList.add("active-content");
+        }
+    </script>
+</body>
+
+</html>

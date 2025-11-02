@@ -1,0 +1,231 @@
+
+.profile {
+    border-radius: 50%;
+}
+
+.header {
+    padding-bottom: 100px;
+    background-image: url(assets/images/Gradient-1.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-color: #3A6F43
+}
+
+.hero {
+    padding-bottom: 52px;
+    background-image: url(assets/images/background.png), url(assets/images/background-2.png), url(assets/images/Gradient-2.png);
+    background-size: contain, contain, auto;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: right bottom, left top, left bottom;
+    background-color: #59AC77;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.pink-border {
+    border-color: #FFD5D5 !important;
+}
+
+
+.footer-items {
+    padding-top: 140px;
+}
+
+.section-titles {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-links {
+    cursor: pointer;
+}
+
+.section-links:hover {
+    color: palevioletred;
+}
+
+.info-contents {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+.bold_color {
+    color: #FDAAAA;
+}
+
+.active-part {
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A6F43;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 60px;
+    border-radius: 40%;
+    color: red;
+}
+
+.project-header {
+    color: #FFD5D5;
+    padding-bottom: 32px;
+    padding-top: 0px;
+    padding-left: 25%;
+}
+
+.contact-page-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: sp;
+}
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-btn {
+    background-color: #FFD5D5;
+    color: #59AC77;
+    border-radius: 45%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    height: 50px;
+    border: dashed #FDAAAA 2px;
+}
+
+.download-btn {
+    background-color: #FFD5D5;
+    color: #59AC77;
+    border-radius: 45%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    height: 50px;
+    border: dashed #FDAAAA 2px;
+}
+
+.contact-text-1 {
+    color: #3A6F43;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-text-2 {
+    color: #59AC77;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contact-text-3 {
+    color: #59AC77;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+hr {
+    border: double #3A6F43 16px;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.footer-text {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: white;
+}
+
+.text_color {
+    color: #FFD5D5;
+}
+
+.carousel-text-2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 10%;
+}
+
+.bi-arrow-up-right-square-fill
+{
+    font-size: 35px;
+    color: black;
+}
+
+.gif {
+    display: block;
+    max-width: 350px; 
+    height: auto;
+    padding: 0px;
+}
+
+.gif:hover {
+    max-width: 400px;
+}
+
+.footer {
+    padding-bottom: 30px;
+    background-image: url(assets/images/Gradient-3.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-color: #FDAAAA;
+}
+
+.header_anim div {
+    opacity: 0;
+    animation: drop 0.4s linear forwards;
+    animation-duration: 1s;
+}
+
+.header_anim div:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-200px) scaleY(0.9);
+    }
+    5% {
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(0px) scaleY(1);
+    }
+    55% {
+        transform: translateY(0px) scaleY(0.3);
+    }
+    65% {
+        transform: translateY(-17px) scaleY(1.5);
+    }
+    75% {
+        transform: translateY(-22px) scaleY(0.9);
+    }
+    100% {
+        transform: translateY(0px) scaleY(1);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .hero {
+        background-image: url(assets/images/background.png), url(assets/images/background-2.png), url(assets/images/Gradient-2.png);
+        background-size: 150px, 150px, auto;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        background-position: right bottom, left top, left bottom;
+        background-color: #59AC77;
+    }
+}
+
