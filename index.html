@@ -12,6 +12,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geo:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&family=VT323&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +28,7 @@
                     class="img-fluid border-bottom rounded-4 pink-border mb-4" alt="Name logo" width="300" height="200"
                     loading="lazy"> </div>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4 fw-bold text_color">
+                <p class="lead mb-4 fw-bold text_color portion_title">
                     Tenacious developer with a passion for programming, numbers and creativity.
                 </p>
                 <div class="overflow-hidden" style="max-height: 30vh;">
@@ -34,14 +40,14 @@
     <div class="hero hero-2">
         <div class="px-4 py-5 my-0 text-center"> <img class="d-block mx-auto mb-4 profile"
                 src="./assets/images/User.jpg" alt="Farid Sawaqed profile picture" width="150" height="150">
-            <h1 class="display-5 fw-bold bold_color">Glad to meet you!</h1>
+            <h1 class="display-5 fw-bold bold_color portion_title">Glad to meet you!</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4 text_color">
+                <p class="lead mb-4 text_color portion_text">
                     My name is Farid Sawaqed, but you can call me Fred. <br />
                     <hr />
-                <p class="lead mb-4 text_color">
+                <p class="lead mb-4 text_color portion_subtitle header_title_adjust">
                     I love the art of creation, whether its:
-                <ul class="no-bullets lead mb-4 text_color">
+                <ul class="no-bullets mb-4 text_color portion_text">
                     <li>Web Development</li>
                     <li>Game Development and Game Design</li>
                     <li>Illustration</li>
@@ -56,7 +62,7 @@
 
     <!-- Skills and Experience -->
     <div class="container pb-5">
-        <div class="section-titles">
+        <div class="portion_title section-titles">
             <h2 class="display-5 fw-bold bold_color text-center py-4 section-links active_part"
                 onclick="opensection('carouselExampleCaptions')">Skills</h2>
             <h2 class="display-5 fw-bold bold_color text-center py-4 section-links" onclick="opensection('experience')">
@@ -78,26 +84,25 @@
                 <div class="carousel-item active img-fluid">
                     <img src="./assets/images/game_development_work.png" class="d-block w-100"
                         alt="Presentation slides of game project">
-                    <div class="carousel-caption d-md-block carousel-text-2">
+                    <div class="carousel-caption d-md-block carousel-text-2 portion_text">
                         <h3>Game Development</h3>
-                        <p>Developing 2D pixelated games with Unity and Godot,
-                            and crafting immersive experiences using Unreal Engine</p>
+                        <p>Crafting immersive experiences using Unreal Engine, Unity,
+                            and Godot</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/python_work.png" class="d-block w-100"
                         alt="Image of game content, knife cutting grilled cheese sandwich">
-                    <div class="carousel-caption d-md-block carousel-text-2">
+                    <div class="carousel-caption d-md-block carousel-text-2 portion_text">
                         <h3>Python programming</h3>
-                        <p>Created a range of functional projects using Python,
-                            from simple games to real world applications like
-                            an Emotion Recognition Software</p>
+                        <p>Built diverse Python projects ranging from games to
+                            Emotion Recognition Software.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/web_development_work.png" class="d-block w-100"
                         alt="Starting main menu of the game">
-                    <div class="carousel-caption d-md-block carousel-text-2">
+                    <div class="carousel-caption d-md-block carousel-text-2 portion_text">
                         <h3>Web Development</h3>
                         <p>Bringing ideas to life on the web through HTML and CSS</p>
                     </div>
@@ -116,25 +121,28 @@
         </div>
 
         <ul id="experience" class="list-group info-contents">
-            <li class="list-group-item list-group-item-danger">Education</li>
+            <li class="list-group-item list-group-item-danger portion_text">Education</li>
             <ul>
-                <li class="list-group-item list-group-item-primary">Montclair State University | Computer Science </li>
+                <li class="list-group-item list-group-item-primary portion_text">Montclair State University | Computer
+                    Science </li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">
+                    <li class="list-group-item list-group-item-success portion_text">
                         M.A. <br>
                         Graduated: May 2025 <br>
                         3.6 </li>
                 </ul>
-                <li class="list-group-item list-group-item-primary">Montclair State University | Game Development </li>
+                <li class="list-group-item list-group-item-primary portion_text">Montclair State University | Game
+                    Development </li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">
+                    <li class="list-group-item list-group-item-success portion_text">
                         CERT <br>
                         Graduated: May 2024 <br>
                         4.0 </li>
                 </ul>
-                <li class="list-group-item list-group-item-primary">Montclair State University | Mathematics </li>
+                <li class="list-group-item list-group-item-primary portion_text">Montclair State University |
+                    Mathematics </li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">
+                    <li class="list-group-item list-group-item-success portion_text">
                         B.A. <br>
                         Graduated: May 2021 <br>
                         3.4 <br>
@@ -144,47 +152,49 @@
 
             <hr />
 
-            <li class="list-group-item list-group-item-danger">Experience</li>
+            <li class="list-group-item list-group-item-danger portion_text">Experience</li>
             <ul>
-                <li class="list-group-item list-group-item-primary">Newark School of Data Science & Information
+                <li class="list-group-item list-group-item-primary portion_text">Newark School of Data Science &
+                    Information
                     Technology</li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">Per Diem Teacher <br> 10/6/2025 - Current</li>
+                    <li class="list-group-item list-group-item-success portion_text">Per Diem Teacher <br> 10/6/2025 -
+                        Current</li>
 
                     <ul>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Provide classroom insturctionsfor grades 9 to 12 in various subjects as needed.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Maintain a positive and organized learning environment by following lesson plans
                             and adapting to diverse classroom settings.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Manage student behavior effectively while ensuring safety and engagement.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Communicate with staff and administration to support student learning.
                         </li>
                     </ul>
                 </ul>
 
-                <li class="list-group-item list-group-item-primary">Montclair State University</li>
+                <li class="list-group-item list-group-item-primary portion_text">Montclair State University</li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">Graduate Research Assistant <br>
+                    <li class="list-group-item list-group-item-success portion_text">Graduate Research Assistant <br>
                         September 3, 2024 – May 5, 2025</li>
 
                     <ul>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Sponsored by The National Science Foundation
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Research on emotion-based human-robot interaction to implement the creation
                             of an Artificially Intelligent Assistant.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Attend weekly lab meetings to report and discuss projects’ progresses.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Produce and present research outcomes through academic papers,
                             oral presentations, and posters at Montclair State University,
                             as well as at national/international conferences.
@@ -192,26 +202,27 @@
                     </ul>
                 </ul>
 
-                <li class="list-group-item list-group-item-primary">Montclair State University</li>
+                <li class="list-group-item list-group-item-primary portion_text">Montclair State University</li>
                 <ul>
-                    <li class="list-group-item list-group-item-success">Game Development Certificate Teaching Assistant
+                    <li class="list-group-item list-group-item-success portion_text">Game Development Certificate
+                        Teaching Assistant
                         <br>
                         September 5, 2023 – May 7, 2024
                     </li>
 
                     <ul>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Tutor up to 25 students a semester in Blender material including Mesh Creation,
                             Rigging and Animation, and importing to a desired game engine.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Evaluate students’ progress during class and help them with their specific needs.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Grade assignments while providing constructive feedback to students to aid in their learning
                             experience.
                         </li>
-                        <li class="list-group-item list-group-item-light">
+                        <li class="list-group-item list-group-item-light portion_text">
                             Maintain office hours where students can come and get help related to game development.
                         </li>
                     </ul>
@@ -223,13 +234,14 @@
     <!-- Projects -->
     <div class="container">
         <div id="projects" class="container col-xxl-8 px-4 py-3 info-contents">
-            <div class="project-header">
+            <div class="project-header portion_subtitle">
                 <h2>Click on gif to enter external link:</h2>
             </div>
-            <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 ">
                 <div class="col-lg-6">
-                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">DnD Initiative Tracker</h3>
-                    <p class="lead">A website tool used to organize and display the turn order of players and creatures
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 portion_title">DnD Initiative Tracker</h3>
+                    <p class="lead portion_text">A website tool used to organize and display the turn order of players
+                        and creatures
                         during combat of a Dungeons and Dragons session, ensuring gameplay flows smoothly and fairly.
                     </p>
                 </div>
@@ -242,8 +254,10 @@
             </div>
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
-                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kitcken Trials VR / UE-5</h3>
-                    <p class="lead">Virtual reality cooking simulation to develop young children of age the art, sklls,
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 portion_title">Kitcken Trials VR / UE-5
+                    </h3>
+                    <p class="lead portion_text">Virtual reality cooking simulation to develop young children of age the
+                        art, sklls,
                         and knowledge needed to prepare food safely, without entering a real hazardous kitchen.</p>
                 </div>
                 <a class="gif" href="https://youtu.be/zm6oqzt3iTA?si=zlq0D0c9vEBHhslA">
@@ -255,8 +269,10 @@
             </div>
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
-                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Water Balloon Wars / Unity</h3>
-                    <p class="lead">A sidescroller about a group of fire lovers threatening the water park with strange
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 portion_title">Water Balloon Wars / Unity
+                    </h3>
+                    <p class="lead portion_text">A sidescroller about a group of fire lovers threatening the water park
+                        with strange
                         green magic. Your have to defeat the Junior Fire Squad, destroy the satellites,
                         and save the water park.</p>
                 </div>
@@ -269,8 +285,10 @@
             </div>
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
-                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Ari's Survival Arc / Godot</h3>
-                    <p class="lead">Submission for the 2024 Pixel Game Jam, an endless survival game of avoiding
+                    <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 portion_title">Ari's Survival Arc / Godot
+                    </h3>
+                    <p class="lead portion_text">Submission for the 2024 Pixel Game Jam, an endless survival game of
+                        avoiding
                         obstacles,
                         gathering food, and collecting powerups for a top score. First godot project created in only 9
                         days.</p>
@@ -292,11 +310,11 @@
     <!-- Contact Me -->
     <div class="container">
         <div class="contact-page">
-            <h3 class="contact-text-1">Let's chat!</h3>
-            <h3 class="contact-text-2">Need a programmer for either game/web development?</h3>
-            <p class="contact-text-3">Looking forward to create something with you</p>
+            <h3 class="contact-text-1 portion_title">Let's chat!</h3>
+            <h3 class="contact-text-2 portion_title">Need a programmer for either game/web development?</h3>
+            <p class="contact-text-3 portion_text">Looking forward to create something with you</p>
         </div>
-        <div class="contact-page-buttons pt-4">
+        <div class="contact-page-buttons pt-4 portion_subtitle">
             <a href="assets/images/my_resume.pdf" download class="download-btn">MY RESUME</a>
             <a class="contact-btn" href="mailto:faridsawaqed@yahoo.com">CONTACT ME</a>
         </div>
@@ -304,7 +322,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <ul class="nav justify-content-center mb-3 footer-items">
+        <ul class="nav justify-content-center mb-3 footer-items portion_title">
             <li class="nav-item"><a href="#" class="nav-link px-2 footer-text">Home</a></li>
             <li class="nav-item"><a href="https://www.linkedin.com/in/FaridSawaqed-06s/"
                     class="nav-link px-2 footer-text">Linkedin</a></li>
@@ -315,7 +333,7 @@
             <li class="nav-item"><a href="https://ruili728.github.io/" class="nav-link px-2 footer-text">MIAC Lab
                     Team</a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2025 Farid Sawaqed - Made with passion</p>
+        <p class="text-center text-body-secondary portion_text">© 2025 Farid Sawaqed - Made with passion</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
