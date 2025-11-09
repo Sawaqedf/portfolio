@@ -252,5 +252,10 @@ hr {
         background-position: right bottom, left top, left bottom;
         background-color: #59AC77;
     }
+
+    .section-links:hover {
+        color: red;
+    }
 }
+
 
